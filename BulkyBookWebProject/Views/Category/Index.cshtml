@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BulkyBooks1.Models.Category>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+<partial name="_Notification" />
+
+@*@if(TempData["Success"]!= null)
+{
+    <h2>@TempData["Success"]</h2>
+}*@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="border border-info">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="border border-info">
+                @Html.DisplayNameFor(model => model.DisplayOrder)
+            </th>
+            <th class="border border-info">
+                @Html.DisplayNameFor(model => model.CreateDateTime)
+            </th>
+            <th class="border border-info">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDateTime)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary" class="rounded">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary" class="rounded">Delete</a>
+            </td>
+        </tr>
+}
+        <p>
+            <a asp-action="Create" class="btn btn-success" class="align-Right">Create New</a>
+        </p>
+    </tbody>
+</table>
