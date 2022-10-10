@@ -11,5 +11,7 @@ namespace BulkyBooks1.DataAccessLayer
                     
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Cover> Covers { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

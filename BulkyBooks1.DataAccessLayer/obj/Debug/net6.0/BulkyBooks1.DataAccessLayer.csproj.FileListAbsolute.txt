@@ -1,4 +1,5 @@
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.DataAccessLayer.deps.json
+G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.DataAccessLayer.runtimeconfig.json
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.DataAccessLayer.dll
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.DataAccessLayer.pdb
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.Models.dll
@@ -12,6 +13,5 @@ G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\BulkyBooks1.DataAcce
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\BulkyBooks1.DataAccessLayer.dll
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\refint\BulkyBooks1.DataAccessLayer.dll
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\BulkyBooks1.DataAccessLayer.pdb
-G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\ref\BulkyBooks1.DataAccessLayer.dll
-G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\bin\Debug\net6.0\BulkyBooks1.DataAccessLayer.runtimeconfig.json
 G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\BulkyBooks1.DataAccessLayer.genruntimeconfig.cache
+G:\BulkyBooks1\BulkyBooks1.DataAccessLayer\obj\Debug\net6.0\ref\BulkyBooks1.DataAccessLayer.dll

@@ -10,6 +10,13 @@ G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\BulkyBookWebProject.pdb
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Humanizer.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\MessagePack.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\MessagePack.Annotations.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.Mvc.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.Razor.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.Helpers.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\System.Web.WebPages.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Build.dll
@@ -30,6 +37,7 @@ G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.CodeAnalysis.Works
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -37,6 +45,7 @@ G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCor
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -52,8 +61,10 @@ G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.C
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\NuGet.Common.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\NuGet.Configuration.dll
 G:\BulkyBooks1\BulkyBookWebProject\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -252,6 +263,7 @@ G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.Generate
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.AssemblyInfoInputs.cache
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.AssemblyInfo.cs
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.csproj.CoreCompileInputs.cache
+G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.MvcApplicationPartsAssemblyInfo.cs
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.MvcApplicationPartsAssemblyInfo.cache
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.RazorAssemblyInfo.cache
 G:\BulkyBooks1\BulkyBookWebProject\obj\Debug\net6.0\BulkyBookWebProject.RazorAssemblyInfo.cs

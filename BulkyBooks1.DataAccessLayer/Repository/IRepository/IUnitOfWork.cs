@@ -9,6 +9,8 @@ namespace BulkyBooks1.DataAccessLayer.Repository.IRepository
     public interface IUnitOfWork
     {
         ICategoryRepository Category { get; }
+        ICoverRepository Cover { get; }
+        IProductRepository Product { get; }
         void Save();
     }
 }

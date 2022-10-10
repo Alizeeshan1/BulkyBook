@@ -4,8 +4,9 @@ using BulkyBooks1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel;
 
-namespace BulkyBookWebProject.Controllers
+namespace BulkyBookWebProject.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -35,7 +36,7 @@ namespace BulkyBookWebProject.Controllers
                 _unitOfWork.Category.Add(cat);
                 _unitOfWork.Save();
                 TempData["Success"] = "Created Successfully";
-                 return RedirectToAction("Index");
+                return RedirectToAction("Index");
             }
             return View(cat);
         }
@@ -43,15 +44,15 @@ namespace BulkyBookWebProject.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-           // var edit = _db.Categories.Where(x => x.Id == id).FirstOrDefault();
-           var edit = _unitOfWork.Category.GetFirstOrDefault(c => c.Name == "id");
+            // var edit = _db.Categories.Where(x => x.Id == id).FirstOrDefault();
+            var edit = _unitOfWork.Category.GetFirstOrDefault(c => c.Name == "id");
             return View(edit);
         }
 
         [HttpPost]
         public IActionResult Edit(Category cat)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _unitOfWork.Category.Update(cat);
                 _unitOfWork.Save();
@@ -64,17 +65,17 @@ namespace BulkyBookWebProject.Controllers
         [HttpGet]
         public IActionResult Delete(int? id)
         {
-            var del = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);   
+            var del = _unitOfWork.Category.GetFirstOrDefault(u => u.Id == id);
             return View(del);
         }
 
         [HttpPost]
         public IActionResult Delete(Category cat)
         {
-                _unitOfWork.Category.Remove(cat);
-                _unitOfWork.Save();
+            _unitOfWork.Category.Remove(cat);
+            _unitOfWork.Save();
             TempData["Success"] = "Deleted Successfully";
-            return  RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
     }
 }
